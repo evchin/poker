@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\ch 12\card"
+CMAKE_SOURCE_DIR = C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\ch 12\card\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\ch 12\card\cmake-build-debug\CMakeFiles" "C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\ch 12\card\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\ch 12\card\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -196,6 +196,87 @@ CardGrid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardGrid.cpp.s
 .PHONY : CardGrid.cpp.s
 
+CardHand.obj: CardHand.cpp.obj
+
+.PHONY : CardHand.obj
+
+# target to build an object file
+CardHand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHand.cpp.obj
+.PHONY : CardHand.cpp.obj
+
+CardHand.i: CardHand.cpp.i
+
+.PHONY : CardHand.i
+
+# target to preprocess a source file
+CardHand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHand.cpp.i
+.PHONY : CardHand.cpp.i
+
+CardHand.s: CardHand.cpp.s
+
+.PHONY : CardHand.s
+
+# target to generate assembly for a file
+CardHand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHand.cpp.s
+.PHONY : CardHand.cpp.s
+
+CardHandScorer.obj: CardHandScorer.cpp.obj
+
+.PHONY : CardHandScorer.obj
+
+# target to build an object file
+CardHandScorer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHandScorer.cpp.obj
+.PHONY : CardHandScorer.cpp.obj
+
+CardHandScorer.i: CardHandScorer.cpp.i
+
+.PHONY : CardHandScorer.i
+
+# target to preprocess a source file
+CardHandScorer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHandScorer.cpp.i
+.PHONY : CardHandScorer.cpp.i
+
+CardHandScorer.s: CardHandScorer.cpp.s
+
+.PHONY : CardHandScorer.s
+
+# target to generate assembly for a file
+CardHandScorer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHandScorer.cpp.s
+.PHONY : CardHandScorer.cpp.s
+
+Constants.obj: Constants.cpp.obj
+
+.PHONY : Constants.obj
+
+# target to build an object file
+Constants.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Constants.cpp.obj
+.PHONY : Constants.cpp.obj
+
+Constants.i: Constants.cpp.i
+
+.PHONY : Constants.i
+
+# target to preprocess a source file
+Constants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Constants.cpp.i
+.PHONY : Constants.cpp.i
+
+Constants.s: Constants.cpp.s
+
+.PHONY : Constants.s
+
+# target to generate assembly for a file
+Constants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Constants.cpp.s
+.PHONY : Constants.cpp.s
+
 Deck.obj: Deck.cpp.obj
 
 .PHONY : Deck.obj
@@ -250,6 +331,33 @@ PlayingCard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PlayingCard.cpp.s
 .PHONY : PlayingCard.cpp.s
 
+PokerScore.obj: PokerScore.cpp.obj
+
+.PHONY : PokerScore.obj
+
+# target to build an object file
+PokerScore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PokerScore.cpp.obj
+.PHONY : PokerScore.cpp.obj
+
+PokerScore.i: PokerScore.cpp.i
+
+.PHONY : PokerScore.i
+
+# target to preprocess a source file
+PokerScore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PokerScore.cpp.i
+.PHONY : PokerScore.cpp.i
+
+PokerScore.s: PokerScore.cpp.s
+
+.PHONY : PokerScore.s
+
+# target to generate assembly for a file
+PokerScore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PokerScore.cpp.s
+.PHONY : PokerScore.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -292,12 +400,24 @@ help:
 	@echo ... CardGrid.obj
 	@echo ... CardGrid.i
 	@echo ... CardGrid.s
+	@echo ... CardHand.obj
+	@echo ... CardHand.i
+	@echo ... CardHand.s
+	@echo ... CardHandScorer.obj
+	@echo ... CardHandScorer.i
+	@echo ... CardHandScorer.s
+	@echo ... Constants.obj
+	@echo ... Constants.i
+	@echo ... Constants.s
 	@echo ... Deck.obj
 	@echo ... Deck.i
 	@echo ... Deck.s
 	@echo ... PlayingCard.obj
 	@echo ... PlayingCard.i
 	@echo ... PlayingCard.s
+	@echo ... PokerScore.obj
+	@echo ... PokerScore.i
+	@echo ... PokerScore.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

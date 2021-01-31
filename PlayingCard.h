@@ -1,21 +1,20 @@
 #ifndef CARD_PLAYINGCARD_H
 #define CARD_PLAYINGCARD_H
 
-#include "card.h"
-#include <iostream>
+#include "Card.h"
 #include <SFML/Graphics.hpp>
 #include <cstdlib>
-#include <time.h>
 
 using namespace std;
 
-class PlayingCard : public sf::Drawable, sf::Transformable, Card
+class PlayingCard : public Card, public sf::Drawable, public sf::Transformable
 {
     public:
         PlayingCard();
         PlayingCard(Suit s, Rank r);
         PlayingCard(Suit s, Rank r, sf::Vector2f size, sf::Vector2f position, sf::Vector2f suitScale, sf::Vector2f padding, int charSize);
         virtual void draw(sf::RenderTarget &window, sf::RenderStates state) const;
+
         void setupTexturesAndFonts();
         void setupCard(Suit s, Rank r);
         void bounce();
@@ -37,7 +36,7 @@ class PlayingCard : public sf::Drawable, sf::Transformable, Card
         sf::RectangleShape cardBackground;
         sf::Text upperRank;
         sf::Text lowerRank;
-        sf::Sprite suit;
+        sf::Sprite suitSprite;
         sf::Vector2i velocity;
         bool velocitySet = false;
 };

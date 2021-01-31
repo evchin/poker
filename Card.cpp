@@ -1,11 +1,17 @@
 #include "Card.h"
 
-Card::Card(){}
+Card::Card() : suit(HEART), rank(ACE) {}
 
 Card::Card(Suit s, Rank r)
 {
     suit = s;
     rank = r;
+}
+
+Card::Card(const Card& c)
+{
+    suit = c.suit;
+    rank = c.rank;
 }
 
 void Card::setSuit(Suit suit)
@@ -14,8 +20,19 @@ void Card::setSuit(Suit suit)
 }
 void Card::setRank(Rank rank)
 {
-    
+    this->rank = rank;
 }
-string Card::getSuit();
-string Card::getRank();
-ostream& operator<<(ostream& out, const Card& card);
+Suit Card::getSuit()
+{
+    return suit;
+}
+Rank Card::getRank()
+{
+    return rank;
+}
+ostream& operator<<(ostream& outs, const Card& card)
+{
+    outs << Constants::rankStrings[card.rank] << " of ";
+    outs << Constants::suitStrings[card.suit] << "s";
+    return outs;
+}

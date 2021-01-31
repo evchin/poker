@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/ch 12/card
+# Install script for directory: C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/ch 12/card/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

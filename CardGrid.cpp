@@ -1,6 +1,30 @@
 #include "CardGrid.h"
 
-CardGrid::CardGrid(){}
+CardGrid::CardGrid() : rows(0), cols(0)
+{
+    grid = new PlayingCard*[0];
+}
+
+CardGrid::CardGrid(const CardGrid& a)
+{
+    rows = a.rows;
+    cols = a.cols;
+
+    for (int i = 0; i < rows; i++)
+    {
+        *(grid + i) = new PlayingCard[cols];
+        for (int j = 0; j < cols; j++)
+            setUpCard(i, j, a.grid[i][j].getSuit(), a.grid[i][j].getRank());
+    }
+}
+
+CardGrid::~CardGrid()
+{
+    for (int i = 0; i < rows; i++)
+        delete [] grid[i];
+    delete [] grid;
+}
+
 CardGrid::CardGrid(int rows, int cols)
 {
     this->rows = rows;
@@ -9,6 +33,16 @@ CardGrid::CardGrid(int rows, int cols)
     srand(time(0));
     grid = new PlayingCard*[rows];
 
+    for (int i = 0; i < rows; i++)
+    {
+        *(grid + i) = new PlayingCard[cols];
+        for (int j = 0; j < cols; j++)
+            setUpCard(i, j, Suit(rand() % 4), Rank(rand() % 13));
+    }
+}
+
+void CardGrid::setUpCard(int row, int col, Suit suit, Rank rank)
+{
     sf::Vector2f cardSize, windowSize, padding, suitScale;
     windowSize = {1920, 1080};
     padding = {20, 20};
@@ -17,28 +51,15 @@ CardGrid::CardGrid(int rows, int cols)
 
     cardSize.y = windowSize.y / rows - padding.y * (rows + 1);
     cardSize.x = 0.7 * cardSize.y;
+    sf::Vector2f position = {padding.x + (cardSize.x * col) + padding.x * col, padding.y + (cardSize.y * row) + padding.y * row};
 
-    for (int i = 0; i < rows; i++)
-    {
-        *(grid + i) = new PlayingCard[cols];
-        for (int j = 0; j < cols; j++)
-        {
-            int suit = rand() % 4;
-            int rank = rand() % 13;
-            sf::Vector2f position;
-            position.x = padding.x + (cardSize.x * j) + padding.x * j;
-            position.y = padding.y + (cardSize.y * i) + padding.y * i;
-            *(*(grid + i) + j) = PlayingCard(Card::Suit(suit), Card::Rank(rank), cardSize, position, suitScale, padding, charSize);
-        }
-    }
+    *(*(grid + row) + col) = PlayingCard(Suit(suit), Rank(rank), cardSize, position, suitScale, padding, charSize);
 }
+
+
 void CardGrid::draw(sf::RenderTarget &window, sf::RenderStates state) const
 {
     for (int i = 0; i < rows; i++)
-    {
         for (int j = 0; j < cols; j++)
-        {
             window.draw((*(*(grid + i) + j)));
-        }
-    }
 }
