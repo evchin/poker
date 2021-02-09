@@ -6,7 +6,23 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -static")
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp PlayingCard.h PlayingCard.cpp Card.cpp Card.h CardGrid.cpp CardGrid.h Deck.cpp Deck.h Constants.h Constants.cpp CardHand.cpp CardHand.h CardHandScorer.cpp CardHandScorer.h PokerScore.cpp PokerScore.h)
+set(SOURCE_FILES main.cpp
+        PlayingCard.cpp PlayingCard.h
+        Card.cpp Card.h
+        CardGrid.cpp CardGrid.h
+        Deck.cpp Deck.h
+        DoublyLinkedList.cpp DoublyLinkedList.h
+        Constants.h Constants.cpp
+        CardHand.cpp CardHand.h
+        CardHandScorer.cpp CardHandScorer.h
+        PokerScore.cpp PokerScore.h
+        Screen.cpp Screen.h
+        Button.cpp Button.h
+        CardSlot.cpp CardSlot.h
+        Player.cpp Player.h
+        Table.cpp Table.h
+        PlayScreen.cpp PlayScreen.h
+        Stack.cpp Stack.h)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Release")
     add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})

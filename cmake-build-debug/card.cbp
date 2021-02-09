@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Button.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Button.h">
+			<Option target="card"/>
+		</Unit>
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Card.cpp">
 			<Option target="card"/>
 		</Unit>
@@ -108,6 +114,12 @@
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardHandScorer.h">
 			<Option target="card"/>
 		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardSlot.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardSlot.h">
+			<Option target="card"/>
+		</Unit>
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Constants.cpp">
 			<Option target="card"/>
 		</Unit>
@@ -120,6 +132,24 @@
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Deck.h">
 			<Option target="card"/>
 		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/DoublyLinkedList.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/DoublyLinkedList.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PlayScreen.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PlayScreen.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Player.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Player.h">
+			<Option target="card"/>
+		</Unit>
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PlayingCard.cpp">
 			<Option target="card"/>
 		</Unit>
@@ -130,6 +160,24 @@
 			<Option target="card"/>
 		</Unit>
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PokerScore.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Screen.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Screen.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Stack.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Stack.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Table.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Table.h">
 			<Option target="card"/>
 		</Unit>
 		<Unit filename="C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/main.cpp">

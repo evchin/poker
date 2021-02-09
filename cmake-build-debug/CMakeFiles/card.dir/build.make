@@ -146,10 +146,24 @@ CMakeFiles/card.dir/Deck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/Deck.cpp.s"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Deck.cpp -o CMakeFiles\card.dir\Deck.cpp.s
 
+CMakeFiles/card.dir/DoublyLinkedList.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/DoublyLinkedList.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/DoublyLinkedList.cpp.obj: ../DoublyLinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/card.dir/DoublyLinkedList.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\DoublyLinkedList.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\DoublyLinkedList.cpp
+
+CMakeFiles/card.dir/DoublyLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/DoublyLinkedList.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\DoublyLinkedList.cpp > CMakeFiles\card.dir\DoublyLinkedList.cpp.i
+
+CMakeFiles/card.dir/DoublyLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/DoublyLinkedList.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\DoublyLinkedList.cpp -o CMakeFiles\card.dir\DoublyLinkedList.cpp.s
+
 CMakeFiles/card.dir/Constants.cpp.obj: CMakeFiles/card.dir/flags.make
 CMakeFiles/card.dir/Constants.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
 CMakeFiles/card.dir/Constants.cpp.obj: ../Constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/card.dir/Constants.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/card.dir/Constants.cpp.obj"
 	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\Constants.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Constants.cpp
 
 CMakeFiles/card.dir/Constants.cpp.i: cmake_force
@@ -163,7 +177,7 @@ CMakeFiles/card.dir/Constants.cpp.s: cmake_force
 CMakeFiles/card.dir/CardHand.cpp.obj: CMakeFiles/card.dir/flags.make
 CMakeFiles/card.dir/CardHand.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
 CMakeFiles/card.dir/CardHand.cpp.obj: ../CardHand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/card.dir/CardHand.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/card.dir/CardHand.cpp.obj"
 	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\CardHand.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\CardHand.cpp
 
 CMakeFiles/card.dir/CardHand.cpp.i: cmake_force
@@ -177,7 +191,7 @@ CMakeFiles/card.dir/CardHand.cpp.s: cmake_force
 CMakeFiles/card.dir/CardHandScorer.cpp.obj: CMakeFiles/card.dir/flags.make
 CMakeFiles/card.dir/CardHandScorer.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
 CMakeFiles/card.dir/CardHandScorer.cpp.obj: ../CardHandScorer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/card.dir/CardHandScorer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/card.dir/CardHandScorer.cpp.obj"
 	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\CardHandScorer.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\CardHandScorer.cpp
 
 CMakeFiles/card.dir/CardHandScorer.cpp.i: cmake_force
@@ -191,7 +205,7 @@ CMakeFiles/card.dir/CardHandScorer.cpp.s: cmake_force
 CMakeFiles/card.dir/PokerScore.cpp.obj: CMakeFiles/card.dir/flags.make
 CMakeFiles/card.dir/PokerScore.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
 CMakeFiles/card.dir/PokerScore.cpp.obj: ../PokerScore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/card.dir/PokerScore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/card.dir/PokerScore.cpp.obj"
 	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\PokerScore.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\PokerScore.cpp
 
 CMakeFiles/card.dir/PokerScore.cpp.i: cmake_force
@@ -202,6 +216,104 @@ CMakeFiles/card.dir/PokerScore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/PokerScore.cpp.s"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\PokerScore.cpp -o CMakeFiles\card.dir\PokerScore.cpp.s
 
+CMakeFiles/card.dir/Screen.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/Screen.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/Screen.cpp.obj: ../Screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/card.dir/Screen.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\Screen.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Screen.cpp
+
+CMakeFiles/card.dir/Screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/Screen.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Screen.cpp > CMakeFiles\card.dir\Screen.cpp.i
+
+CMakeFiles/card.dir/Screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/Screen.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Screen.cpp -o CMakeFiles\card.dir\Screen.cpp.s
+
+CMakeFiles/card.dir/Button.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/Button.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/Button.cpp.obj: ../Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/card.dir/Button.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\Button.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Button.cpp
+
+CMakeFiles/card.dir/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/Button.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Button.cpp > CMakeFiles\card.dir\Button.cpp.i
+
+CMakeFiles/card.dir/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/Button.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Button.cpp -o CMakeFiles\card.dir\Button.cpp.s
+
+CMakeFiles/card.dir/CardSlot.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/CardSlot.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/CardSlot.cpp.obj: ../CardSlot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/card.dir/CardSlot.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\CardSlot.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\CardSlot.cpp
+
+CMakeFiles/card.dir/CardSlot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/CardSlot.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\CardSlot.cpp > CMakeFiles\card.dir\CardSlot.cpp.i
+
+CMakeFiles/card.dir/CardSlot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/CardSlot.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\CardSlot.cpp -o CMakeFiles\card.dir\CardSlot.cpp.s
+
+CMakeFiles/card.dir/Player.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/Player.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/Player.cpp.obj: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/card.dir/Player.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\Player.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Player.cpp
+
+CMakeFiles/card.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/Player.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Player.cpp > CMakeFiles\card.dir\Player.cpp.i
+
+CMakeFiles/card.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/Player.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Player.cpp -o CMakeFiles\card.dir\Player.cpp.s
+
+CMakeFiles/card.dir/Table.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/Table.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/Table.cpp.obj: ../Table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/card.dir/Table.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\Table.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Table.cpp
+
+CMakeFiles/card.dir/Table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/Table.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Table.cpp > CMakeFiles\card.dir\Table.cpp.i
+
+CMakeFiles/card.dir/Table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/Table.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Table.cpp -o CMakeFiles\card.dir\Table.cpp.s
+
+CMakeFiles/card.dir/PlayScreen.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/PlayScreen.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/PlayScreen.cpp.obj: ../PlayScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/card.dir/PlayScreen.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\PlayScreen.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\PlayScreen.cpp
+
+CMakeFiles/card.dir/PlayScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/PlayScreen.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\PlayScreen.cpp > CMakeFiles\card.dir\PlayScreen.cpp.i
+
+CMakeFiles/card.dir/PlayScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/PlayScreen.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\PlayScreen.cpp -o CMakeFiles\card.dir\PlayScreen.cpp.s
+
+CMakeFiles/card.dir/Stack.cpp.obj: CMakeFiles/card.dir/flags.make
+CMakeFiles/card.dir/Stack.cpp.obj: CMakeFiles/card.dir/includes_CXX.rsp
+CMakeFiles/card.dir/Stack.cpp.obj: ../Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/card.dir/Stack.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\card.dir\Stack.cpp.obj -c C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Stack.cpp
+
+CMakeFiles/card.dir/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/card.dir/Stack.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Stack.cpp > CMakeFiles\card.dir\Stack.cpp.i
+
+CMakeFiles/card.dir/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/card.dir/Stack.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\Stack.cpp -o CMakeFiles\card.dir\Stack.cpp.s
+
 # Object files for target card
 card_OBJECTS = \
 "CMakeFiles/card.dir/main.cpp.obj" \
@@ -209,10 +321,18 @@ card_OBJECTS = \
 "CMakeFiles/card.dir/Card.cpp.obj" \
 "CMakeFiles/card.dir/CardGrid.cpp.obj" \
 "CMakeFiles/card.dir/Deck.cpp.obj" \
+"CMakeFiles/card.dir/DoublyLinkedList.cpp.obj" \
 "CMakeFiles/card.dir/Constants.cpp.obj" \
 "CMakeFiles/card.dir/CardHand.cpp.obj" \
 "CMakeFiles/card.dir/CardHandScorer.cpp.obj" \
-"CMakeFiles/card.dir/PokerScore.cpp.obj"
+"CMakeFiles/card.dir/PokerScore.cpp.obj" \
+"CMakeFiles/card.dir/Screen.cpp.obj" \
+"CMakeFiles/card.dir/Button.cpp.obj" \
+"CMakeFiles/card.dir/CardSlot.cpp.obj" \
+"CMakeFiles/card.dir/Player.cpp.obj" \
+"CMakeFiles/card.dir/Table.cpp.obj" \
+"CMakeFiles/card.dir/PlayScreen.cpp.obj" \
+"CMakeFiles/card.dir/Stack.cpp.obj"
 
 # External object files for target card
 card_EXTERNAL_OBJECTS =
@@ -222,10 +342,18 @@ card.exe: CMakeFiles/card.dir/PlayingCard.cpp.obj
 card.exe: CMakeFiles/card.dir/Card.cpp.obj
 card.exe: CMakeFiles/card.dir/CardGrid.cpp.obj
 card.exe: CMakeFiles/card.dir/Deck.cpp.obj
+card.exe: CMakeFiles/card.dir/DoublyLinkedList.cpp.obj
 card.exe: CMakeFiles/card.dir/Constants.cpp.obj
 card.exe: CMakeFiles/card.dir/CardHand.cpp.obj
 card.exe: CMakeFiles/card.dir/CardHandScorer.cpp.obj
 card.exe: CMakeFiles/card.dir/PokerScore.cpp.obj
+card.exe: CMakeFiles/card.dir/Screen.cpp.obj
+card.exe: CMakeFiles/card.dir/Button.cpp.obj
+card.exe: CMakeFiles/card.dir/CardSlot.cpp.obj
+card.exe: CMakeFiles/card.dir/Player.cpp.obj
+card.exe: CMakeFiles/card.dir/Table.cpp.obj
+card.exe: CMakeFiles/card.dir/PlayScreen.cpp.obj
+card.exe: CMakeFiles/card.dir/Stack.cpp.obj
 card.exe: CMakeFiles/card.dir/build.make
 card.exe: C:/SFML-2.5.1/lib/libsfml-audio-s-d.a
 card.exe: C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a
@@ -247,7 +375,7 @@ card.exe: C:/SFML-2.5.1/lib/libogg.a
 card.exe: CMakeFiles/card.dir/linklibs.rsp
 card.exe: CMakeFiles/card.dir/objects1.rsp
 card.exe: CMakeFiles/card.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable card.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable card.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\card.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

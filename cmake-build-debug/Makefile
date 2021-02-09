@@ -142,6 +142,33 @@ card/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/build
 .PHONY : card/fast
 
+Button.obj: Button.cpp.obj
+
+.PHONY : Button.obj
+
+# target to build an object file
+Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Button.cpp.obj
+.PHONY : Button.cpp.obj
+
+Button.i: Button.cpp.i
+
+.PHONY : Button.i
+
+# target to preprocess a source file
+Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Button.cpp.i
+.PHONY : Button.cpp.i
+
+Button.s: Button.cpp.s
+
+.PHONY : Button.s
+
+# target to generate assembly for a file
+Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Button.cpp.s
+.PHONY : Button.cpp.s
+
 Card.obj: Card.cpp.obj
 
 .PHONY : Card.obj
@@ -250,6 +277,33 @@ CardHandScorer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardHandScorer.cpp.s
 .PHONY : CardHandScorer.cpp.s
 
+CardSlot.obj: CardSlot.cpp.obj
+
+.PHONY : CardSlot.obj
+
+# target to build an object file
+CardSlot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardSlot.cpp.obj
+.PHONY : CardSlot.cpp.obj
+
+CardSlot.i: CardSlot.cpp.i
+
+.PHONY : CardSlot.i
+
+# target to preprocess a source file
+CardSlot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardSlot.cpp.i
+.PHONY : CardSlot.cpp.i
+
+CardSlot.s: CardSlot.cpp.s
+
+.PHONY : CardSlot.s
+
+# target to generate assembly for a file
+CardSlot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/CardSlot.cpp.s
+.PHONY : CardSlot.cpp.s
+
 Constants.obj: Constants.cpp.obj
 
 .PHONY : Constants.obj
@@ -303,6 +357,87 @@ Deck.s: Deck.cpp.s
 Deck.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Deck.cpp.s
 .PHONY : Deck.cpp.s
+
+DoublyLinkedList.obj: DoublyLinkedList.cpp.obj
+
+.PHONY : DoublyLinkedList.obj
+
+# target to build an object file
+DoublyLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/DoublyLinkedList.cpp.obj
+.PHONY : DoublyLinkedList.cpp.obj
+
+DoublyLinkedList.i: DoublyLinkedList.cpp.i
+
+.PHONY : DoublyLinkedList.i
+
+# target to preprocess a source file
+DoublyLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/DoublyLinkedList.cpp.i
+.PHONY : DoublyLinkedList.cpp.i
+
+DoublyLinkedList.s: DoublyLinkedList.cpp.s
+
+.PHONY : DoublyLinkedList.s
+
+# target to generate assembly for a file
+DoublyLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/DoublyLinkedList.cpp.s
+.PHONY : DoublyLinkedList.cpp.s
+
+PlayScreen.obj: PlayScreen.cpp.obj
+
+.PHONY : PlayScreen.obj
+
+# target to build an object file
+PlayScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PlayScreen.cpp.obj
+.PHONY : PlayScreen.cpp.obj
+
+PlayScreen.i: PlayScreen.cpp.i
+
+.PHONY : PlayScreen.i
+
+# target to preprocess a source file
+PlayScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PlayScreen.cpp.i
+.PHONY : PlayScreen.cpp.i
+
+PlayScreen.s: PlayScreen.cpp.s
+
+.PHONY : PlayScreen.s
+
+# target to generate assembly for a file
+PlayScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PlayScreen.cpp.s
+.PHONY : PlayScreen.cpp.s
+
+Player.obj: Player.cpp.obj
+
+.PHONY : Player.obj
+
+# target to build an object file
+Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Player.cpp.obj
+.PHONY : Player.cpp.obj
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Player.cpp.s
+.PHONY : Player.cpp.s
 
 PlayingCard.obj: PlayingCard.cpp.obj
 
@@ -358,6 +493,87 @@ PokerScore.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/PokerScore.cpp.s
 .PHONY : PokerScore.cpp.s
 
+Screen.obj: Screen.cpp.obj
+
+.PHONY : Screen.obj
+
+# target to build an object file
+Screen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Screen.cpp.obj
+.PHONY : Screen.cpp.obj
+
+Screen.i: Screen.cpp.i
+
+.PHONY : Screen.i
+
+# target to preprocess a source file
+Screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Screen.cpp.i
+.PHONY : Screen.cpp.i
+
+Screen.s: Screen.cpp.s
+
+.PHONY : Screen.s
+
+# target to generate assembly for a file
+Screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Screen.cpp.s
+.PHONY : Screen.cpp.s
+
+Stack.obj: Stack.cpp.obj
+
+.PHONY : Stack.obj
+
+# target to build an object file
+Stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Stack.cpp.obj
+.PHONY : Stack.cpp.obj
+
+Stack.i: Stack.cpp.i
+
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Stack.cpp.s
+.PHONY : Stack.cpp.s
+
+Table.obj: Table.cpp.obj
+
+.PHONY : Table.obj
+
+# target to build an object file
+Table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Table.cpp.obj
+.PHONY : Table.cpp.obj
+
+Table.i: Table.cpp.i
+
+.PHONY : Table.i
+
+# target to preprocess a source file
+Table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Table.cpp.i
+.PHONY : Table.cpp.i
+
+Table.s: Table.cpp.s
+
+.PHONY : Table.s
+
+# target to generate assembly for a file
+Table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/Table.cpp.s
+.PHONY : Table.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -394,6 +610,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... card
+	@echo ... Button.obj
+	@echo ... Button.i
+	@echo ... Button.s
 	@echo ... Card.obj
 	@echo ... Card.i
 	@echo ... Card.s
@@ -406,18 +625,39 @@ help:
 	@echo ... CardHandScorer.obj
 	@echo ... CardHandScorer.i
 	@echo ... CardHandScorer.s
+	@echo ... CardSlot.obj
+	@echo ... CardSlot.i
+	@echo ... CardSlot.s
 	@echo ... Constants.obj
 	@echo ... Constants.i
 	@echo ... Constants.s
 	@echo ... Deck.obj
 	@echo ... Deck.i
 	@echo ... Deck.s
+	@echo ... DoublyLinkedList.obj
+	@echo ... DoublyLinkedList.i
+	@echo ... DoublyLinkedList.s
+	@echo ... PlayScreen.obj
+	@echo ... PlayScreen.i
+	@echo ... PlayScreen.s
+	@echo ... Player.obj
+	@echo ... Player.i
+	@echo ... Player.s
 	@echo ... PlayingCard.obj
 	@echo ... PlayingCard.i
 	@echo ... PlayingCard.s
 	@echo ... PokerScore.obj
 	@echo ... PokerScore.i
 	@echo ... PokerScore.s
+	@echo ... Screen.obj
+	@echo ... Screen.i
+	@echo ... Screen.s
+	@echo ... Stack.obj
+	@echo ... Stack.i
+	@echo ... Stack.s
+	@echo ... Table.obj
+	@echo ... Table.i
+	@echo ... Table.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

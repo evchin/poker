@@ -8,19 +8,25 @@ class PokerScore
 public:
     PokerScore();
     enum Score{
-        ROYAL_FLUSH,        // A, K, Q, J, 10, all the same suit.
-        STRAIGHT_FLUSH,     // five cards of the same suit and consecutive ranking
-        FOUR_OF_A_KIND,     // four cards of the same ranking
-        FULL_HOUSE,         // three cards of the same rank along with two cards of the same rank
-        FLUSH,              // five cards of the same suit
-        STRAIGHT,           // five cards in consecutive ranking
-        THREE_OF_A_KIND,    // three cards of the same rank
-        TWO_PAIR,           // two cards of the same rank along with another two cards of the same rank
+        HIGH_CARD,          // highest card in the player’s hand
         ONE_PAIR,           // two cards of the same rank
-        HIGH_CARD           // highest card in the player’s hand
+        TWO_PAIR,           // two cards of the same rank along with another two cards of the same rank
+        THREE_OF_A_KIND,    // three cards of the same rank
+        STRAIGHT,           // five cards in consecutive ranking
+        FLUSH,              // five cards of the same suit
+        FULL_HOUSE,         // three cards of the same rank along with two cards of the same rank
+        FOUR_OF_A_KIND,     // four cards of the same ranking
+        STRAIGHT_FLUSH,     // five cards of the same suit and consecutive ranking
+        ROYAL_FLUSH         // A, K, Q, J, 10, all the same suit.
     };
-    string scoreStrings[10] = {"Royal Flush", "Straight Flush", "Four of a Kind", "Full House", "Flush",
-        "Straight", "Three of a Kind", "Two Pair", "One Pair", "High Card"};
+    string scoreStrings[10] = {"High Card", "One Pair", "Two Pair", "Three of a Kind", "Straight",
+                               "Flush", "Full House", "Four of a Kind", "Straight Flush", "Royal Flush"};
+
+    vector<Score> getScores();
+    void setOfficialScore(int a);
+    void setHighCard(int a);
+    int getOfficialScore();
+    int getHighCard();
 
     int size();
     void operator+=(const Score& score);
@@ -30,6 +36,8 @@ public:
 
 private:
     vector<Score> scores = {};
+    int officialScore = 0;
+    int highCard = 0;
 };
 
 #endif //CARD_POKERSCORE_H

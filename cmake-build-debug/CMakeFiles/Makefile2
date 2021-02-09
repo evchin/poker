@@ -93,12 +93,12 @@ clean: CMakeFiles/card.dir/clean
 CMakeFiles/card.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\card.dir\build.make CMakeFiles/card.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target card"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target card"
 .PHONY : CMakeFiles/card.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/card.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/card.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecwin\OneDrive\Documents\4_Education\CS03A\card\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/card.dir/rule

@@ -21,14 +21,35 @@ PokerScore CardHandScorer::scorePokerHand(CardHand hand)
     if (sameRanks >= 2) score += PokerScore::ONE_PAIR;
     score += PokerScore::HIGH_CARD;
 
+    score.setHighCard(calculateHighCard(hand));
+    score.setOfficialScore(calculateOfficialScore(score));
+
     return score;
+}
+
+int CardHandScorer::calculateOfficialScore(PokerScore score)
+{
+    vector<PokerScore::Score> scores = score.getScores();
+    int max = scores[0];
+    for (int i = 0; i < scores.size(); i++)
+        if (max < scores[i]) max = scores[i];
+    return max;
+}
+
+int CardHandScorer::calculateHighCard(CardHand hand)
+{
+    int max = 0;
+    vector<PlayingCard> cards = hand.getHand();
+    for (int i = 0; i < cards.size(); i++)
+        if (cards[i].getRank() > max) max = cards[i].getRank();
+    return max;
 }
 
 bool CardHandScorer::royalFlush(CardHand h)
 {
-    if (sameSuit(h) != 5) return false;
+    if (sameSuit(h) < 5) return false;
     int* ranks = h.getRanks();
-    return ranks[0] == 1 && ranks[9] == 1 && ranks[10] == 1 && ranks[11] == 1 && ranks[12] == 1;
+    return ranks[0] != 0 && ranks[9] != 0 && ranks[10] != 0 && ranks[11] != 0 && ranks[12] != 0;
 }
 
 bool CardHandScorer::fullHouse(CardHand h)
@@ -37,8 +58,8 @@ bool CardHandScorer::fullHouse(CardHand h)
     int* ranks = h.getRanks();
     for (int i = 0; i < 13; i++)
     {
-        if (ranks[i] == 3) three = true;
-        if (ranks[i] == 2) two = true;
+        if (ranks[i] >= 3) three = true;
+        if (ranks[i] >= 2) two = true;
     }
     return three && two;
 }

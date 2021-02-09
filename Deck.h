@@ -1,21 +1,20 @@
 #ifndef CARD_DECK_H
 #define CARD_DECK_H
 
-#include "Card.h"
+#include "PlayingCard.h"
+#include "Stack.h"
 
 class Deck
 {
 public:
-    Deck();                                                         // constructor
-    void shuffle();                                                 // puts cards in random order
-    Card getCardAt(int index);                                      // gets the Card at the given index
-    Card dealCard();                                                // returns the next card in the deck
-    friend ostream& operator<<(ostream& out, const Deck& deck);     // prints all the cards to the console
+    Deck();
+    void shuffle();
+    PlayingCard dealCard();
 
 private:
-    Card deck[52];                                                  // this is your final deck of cards
-    const int DECK_SIZE = 52;                                       // this is the size of your deck
-    int cardIndex;                                                  // marks the index of the next card in the deck
+    Stack<PlayingCard> stack;
+    PlayingCard deck[52];
+    const int DECK_SIZE = 52;
 };
 
 #endif //CARD_DECK_H

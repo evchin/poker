@@ -8,6 +8,8 @@ class CardHandScorer
 public:
     CardHandScorer();
     static PokerScore scorePokerHand(CardHand hand);
+    static int calculateOfficialScore(PokerScore score);
+    static int calculateHighCard(CardHand hand);
 private:
     static bool royalFlush(CardHand h);          // returns true if royal flush
     static bool fullHouse(CardHand h);           // returns true if full house

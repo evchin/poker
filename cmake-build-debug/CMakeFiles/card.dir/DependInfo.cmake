@@ -4,14 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Button.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Button.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Card.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Card.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardGrid.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/CardGrid.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardHand.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/CardHand.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardHandScorer.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/CardHandScorer.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/CardSlot.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/CardSlot.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Constants.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Constants.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Deck.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Deck.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/DoublyLinkedList.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/DoublyLinkedList.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PlayScreen.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/PlayScreen.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Player.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Player.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PlayingCard.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/PlayingCard.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/PokerScore.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/PokerScore.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Screen.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Screen.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Stack.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Stack.cpp.obj"
+  "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/Table.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/Table.cpp.obj"
   "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/main.cpp" "C:/Users/ecwin/OneDrive/Documents/4_Education/CS03A/card/cmake-build-debug/CMakeFiles/card.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

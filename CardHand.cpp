@@ -10,7 +10,7 @@ CardHand::CardHand(const CardHand& a)
     hand = a.hand;
 }
 
-vector<Card> CardHand::getHand()
+vector<PlayingCard> CardHand::getHand()
 {
     return hand;
 }
@@ -39,19 +39,19 @@ void CardHand::setSuits()
         suits[hand[i].getSuit()]++;
 }
 
-int CardHand::getSize()
+int CardHand::getSize() const
 {
     return hand.size();
 }
 
-void CardHand::addCard(Card c)
+void CardHand::addCard(PlayingCard c)
 {
     hand.push_back(c);
 }
 
-ostream& operator<<(ostream& out, CardHand& hand)
+ostream& operator<<(ostream& outs, const CardHand& hand)
 {
     for (int i = 0; i < hand.getSize(); i++)
-        out << i + 1 << ": " << hand.hand[i] << endl;
-    return out;
+        outs << i + 1 << ": " << hand.hand[i] << endl;
+    return outs;
 }

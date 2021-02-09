@@ -2,16 +2,26 @@
 
 Deck::Deck()
 {
+    PlayingCard temp[52];
     int index = 0;
     for (int i = 0; i < 4; i++)
         for (int j = 0; j < 13; j++)
-            deck[index++] = Card(Suit(i), Rank(j));
-    cardIndex = 0;
+            temp[index++] = PlayingCard(Suit(i), Rank(j));
+
+    for (int i = 0; i < DECK_SIZE; i++)
+        stack.push(temp[i]);
 }
+
 void Deck::shuffle()
 {
-    Card* temp = new Card[DECK_SIZE];
+    PlayingCard temp[52];
     int order[52] = {NULL};
+    stack.clear();
+
+    int index = 0;
+    for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 13; j++)
+            temp[index++] = PlayingCard(Suit(i), Rank(j));
 
     for (int i = 0; i < DECK_SIZE; i++)
     {
@@ -24,26 +34,13 @@ void Deck::shuffle()
     }
 
     for (int i = 0; i < DECK_SIZE; i++)
-        temp[order[i]] = deck[i];
+        stack.push(temp[order[i]]);
+}
 
-    for (int i = 0; i < DECK_SIZE; i++)
-        deck[i] = temp[i];
-
-    delete [] temp;
-}
-Card Deck::getCardAt(int index)
+PlayingCard Deck::dealCard()
 {
-    return deck[index];
-}
-Card Deck::dealCard()
-{
-    if (cardIndex >= DECK_SIZE)
-        cardIndex = 0;
-    return deck[cardIndex++];
-}
-ostream& operator<<(ostream& out, const Deck& deck)
-{
-    for (int i = 0; i < deck.DECK_SIZE; i++)
-        out << i + 1 << ": " << deck.deck[i] << endl;
-    return out;
+    PlayingCard c = stack.pop();
+    if (stack.empty())
+        shuffle();
+    return c;
 }
